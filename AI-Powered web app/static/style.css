@@ -1,0 +1,130 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(-45deg, #00c6ff, #0072ff, #00c6ff, #0072ff);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+h1 {
+    font-size: 50px;
+    animation: glow 2s infinite alternate;
+    margin-bottom: 30px;
+}
+
+@keyframes glow {
+    from { text-shadow: 0 0 15px #FFD700, 0 0 25px #FFD700; }
+    to   { text-shadow: 0 0 25px #FFA500, 0 0 35px #FFA500; }
+}
+
+.upload-info {
+    background-color: rgba(255,255,255,0.15);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    text-align: left;
+}
+
+.upload-info h2 {
+    font-size: 30px;
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+
+.upload-info ul {
+    list-style-type: square;
+    text-align: left;
+    margin-left: 20px;
+}
+
+input[type="file"] {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #FFD700;
+    color: #333;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 20px #FFD700;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #FFA500;
+    color: #fff;
+    box-shadow: 0 0 30px #FFA500;
+    transform: scale(1.05);
+}
+
+.footer {
+    margin-top: 50px;
+    font-size: 18px;
+    color: #FFD700;
+}
+
+.menu-icon {
+    font-size: 28px;
+    color: white;
+    background-color: #004080;
+    padding: 8px 14px;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    border-radius: 5px;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 220px;
+    background-color: #004080;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.3);
+    display: none;
+    text-align: left;
+}
+
+.sidebar h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.sidebar a {
+    display: block;
+    color: #fff;
+    padding: 12px 0;
+    text-decoration: none;
+    margin: 10px 0;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #0059b3;
+    border-radius: 5px;
+}
