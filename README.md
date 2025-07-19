@@ -21,6 +21,7 @@ This web application allows users to upload their resume in PDF format and uses 
 ## Technology Used:
 
 -Frontend-HTML,CSS,JAVASCRIPT
+
  -Backend-Python,Flask,pdfplumber,spaCy (en_core_web_sm model)
 
 
