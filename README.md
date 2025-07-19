@@ -13,7 +13,7 @@ This web application allows users to upload their resume in PDF format and uses 
 - Calculate match percentage
 - Display result (Selected / Not Selected)
 - Shows matched skills
-- Custom Interview Role, Salary, and Date suggestions
+- Custom Interview Role, Salary,City and Date suggestions
 - Extract candidate name from resume
 
 
